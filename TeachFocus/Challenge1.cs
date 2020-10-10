@@ -10,12 +10,15 @@ namespace TeachFocus
             InitializeComponent();
         }
 
+        public int ChallengeGrade { get; set; }
+
         private void btnGenerateText_Click(object sender, EventArgs e)
         {
             string studentName = string.Empty;
             if (txtStudentName.Text != string.Empty)
             {
                 studentName = txtStudentName.Text;
+                txtResultTextChallenge1.Text = Utils.GetChallenge1Text(ConstantData.CHALLENGE1_TEXT_FILENAME, studentName);
             }
             else
             {
@@ -27,6 +30,35 @@ namespace TeachFocus
         private void Challenge1_Load(object sender, EventArgs e)
         {
             lblGradeChallenge1.Text = ConstantData.BASE_GRADE;
+        }
+
+        private void chkForumPostExist_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chkAnswersTheQuestions_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chkFeedbackSinglePartner_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkFeedbackSinglePartner.Checked)
+            {
+                chkFeedbackMoreThanOnePartner.Enabled = false;
+                numMoreThanOneFeedback.Enabled = false;
+            }
+            else
+            {
+                chkFeedbackMoreThanOnePartner.Enabled = true;
+                numMoreThanOneFeedback.Enabled = true;
+            }
+        }
+
+        private void chkFeedbackMoreThanOnePartner_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

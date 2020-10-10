@@ -51,6 +51,7 @@
             this.chkAnswersTheQuestions.TabIndex = 0;
             this.chkAnswersTheQuestions.Text = "¿Contesta las Preguntas Requeridas por la actividad?";
             this.chkAnswersTheQuestions.UseVisualStyleBackColor = true;
+            this.chkAnswersTheQuestions.CheckedChanged += new System.EventHandler(this.chkAnswersTheQuestions_CheckedChanged);
             // 
             // chkForumPostExist
             // 
@@ -61,6 +62,7 @@
             this.chkForumPostExist.TabIndex = 1;
             this.chkForumPostExist.Text = "¿Existe su publicación en el foro?";
             this.chkForumPostExist.UseVisualStyleBackColor = true;
+            this.chkForumPostExist.CheckedChanged += new System.EventHandler(this.chkForumPostExist_CheckedChanged);
             // 
             // chkFeedbackSinglePartner
             // 
@@ -71,6 +73,7 @@
             this.chkFeedbackSinglePartner.TabIndex = 2;
             this.chkFeedbackSinglePartner.Text = "¿Retroalimenta a 1 Compañero?";
             this.chkFeedbackSinglePartner.UseVisualStyleBackColor = true;
+            this.chkFeedbackSinglePartner.CheckedChanged += new System.EventHandler(this.chkFeedbackSinglePartner_CheckedChanged);
             // 
             // txtStudentName
             // 
@@ -125,6 +128,7 @@
             this.chkFeedbackMoreThanOnePartner.TabIndex = 2;
             this.chkFeedbackMoreThanOnePartner.Text = "¿Retroalimenta a más de 1 Compañero?";
             this.chkFeedbackMoreThanOnePartner.UseVisualStyleBackColor = true;
+            this.chkFeedbackMoreThanOnePartner.CheckedChanged += new System.EventHandler(this.chkFeedbackMoreThanOnePartner_CheckedChanged);
             // 
             // numMoreThanOneFeedback
             // 
