@@ -1,0 +1,7 @@
+﻿Hola %STUDENT_NAME%
+
+Te felicito por haber cumplido tu participación del reto 1 correctamente, así como la retroalimentación a n de tus compañeros, las cuales, fueron correctas y enriquecedoras, que si bien eso habla muy bien de ti como profesional, indica que vas más allá de lo que te piden con calidad y excelencia, lo cual, a su vez, hace esta actividad meritoria de la calificación máxima. Te exhorto a que sigas así, buen trabajo!.
+
+Saludos
+
+M. en C. José Alejandro Cornejo Acosta

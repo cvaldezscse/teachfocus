@@ -12,7 +12,8 @@ namespace TeachFocus
 
         private void btnChallenge1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Coming Soon");
+            var challenge1Form = new Challenge1();
+            challenge1Form.Show();
         }
 
         private void btnChallenge2_Click(object sender, EventArgs e)
@@ -35,12 +36,12 @@ namespace TeachFocus
 
         private void btnAdminEmailText_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Coming Soon");
+            MessageBox.Show(ConstantData.COMING_SOON_MESSAGE);
         }
 
         private void btnAdminNumbers_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Coming Soon");
+            MessageBox.Show(ConstantData.COMING_SOON_MESSAGE);
         }
     }
 }
